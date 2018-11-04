@@ -31,6 +31,7 @@ namespace DotNetCapture
             //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run();
+            //tests
 
             using (System.Threading.Mutex mutex = new System.Threading.Mutex(false, "Global\\CaptureConfig"))
             {
